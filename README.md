@@ -1,10 +1,11 @@
 # eth.analysis
 
-**希望能够分析以太坊的代码来学习区块链技术和GO语言的使用**
+**PERSONAL translation using google translate.**
+This is not an accurate translation, because I'm going to use google translate and modify this according to my needs.
 
-分析[go-ethereum](https://github.com/ethereum/go-ethereum)的过程，我希望从依赖比较少的底层技术组件开始，慢慢深入到核心逻辑。
+Analyzing [go-ethereum](https://github.com/ethereum/go-ethereum). I hope to start from components that doesn't require a high level of understanding, and gradually move deepen to the core logic.
 
-## 目录
+## content
 - [go-ethereum代码阅读环境搭建](/go-ethereum源码阅读环境搭建.md)
 - [以太坊黄皮书 符号索引](a黄皮书里面出现的所有的符号索引.md)
 - [rlp源码解析](/rlp源码解析.md)
