@@ -2,52 +2,52 @@
 
 The structure of go-ethereum is basically divided into directories according to functional packages.
 
-- *accounts* Implements high-level Ethereum account management
-- *build* Scripts and configurations to build and generate packages of go-ethereum
-- *cmd* Command line tools
-  - *abidump* Try to interpret the ABI data (Trx data) using the 4bytes database (4byte.json)
-  - *abigen* Source code generator to convert Ethereum contract definitions into easy to use, compile-time type-safe Go packages
-  - *bootnode* Starts a node that only implements network discovery protocol
-  - *checkpoint-admin* Tool to manage Checkpoint oracle (Smart contract that stores a trusted checkpoint for LES protocol)
-  - *clef* Used to sign transactions and data. Eventual replacement for Geth's account management
-  - *devp2p* Utility for low-level peer-to-peer debugging and protocol development purposes
-  - *ethkey* Tool for working with Ethereum keyfiles
-  - *evm* Developer utility version of the EVM (Ethereum Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode
-  - *faucet* Web app with the goal of distributing small amounts of Ether in private and test networks
-  - *geth* The official command-line client for Ethereum
-  - *p2psim*
-  - *puppeth* Wizard to assemble and maintain private networks
-  - *rlpdump* Pretty-printer for RLP data
-  - *utils* Helper functions for commands
-- *common* Contains various helpers functions
-- *consensus* Different Ethereum consensus engines
-- *console* JavaScript interpreted runtime environment to be attached to a running node
-- *contracts* Solidity contracts and bindings. Just CheckpointOracle for now
-- *core* Implements the Ethereum consensus protocol
-- *crypto* Encryption and hashing algorithms
-- *docs* Audits and post-mortems
-- *eth* Implements the Ethereum protocol
-- *ethclient* Provides a client for the Ethereum RPC API
-- *ethdb* Defines the interfaces for an Ethereum data store
-- *ethstats* Implements the network stats reporting service
-- *event* Deals with subscriptions to real-time events
-- *graphql* Provides a GraphQL interface to Ethereum node data
-- *internal* TODO
-- *les* Implements the Light Ethereum Subprotocol
-- *light* Implements on-demand retrieval capable state and chain objects for the Ethereum Light Client
-- *log* github.com/inconshreveable/log15 "fork"
-- *metrics* github.com/rcrowley/go-metrics "fork"
-- *miner* Implements Ethereum block creation and mining
-- *mobile* Wrappers to support mobile platforms
-- *node* Sets up multi-protocol Ethereum nodes
-- *p2p* Implements the Ethereum p2p network protocols
-- *params* Configurations, default and hardcoded params
-- *rlp* Implements the RLP serialization format
-- *rpc* Implements bi-directional JSON-RPC 2.0 on multiple transports
-- *signer* TODO
-  - *core*
-  - *fourbyte*
-  - *rules*
-  - *storage*
-- *swarm* MOVED to ethersphere/swarm, then to Bee
-- *trie* Implements Merkle Patricia Tries
+- **accounts** Implements high-level Ethereum account management
+- **build** Scripts and configurations to build and generate packages of go-ethereum
+- **cmd** Command line tools
+  - **abidump** Try to interpret the ABI data (Trx data) using the 4bytes database (4byte.json)
+  - **abigen** Source code generator to convert Ethereum contract definitions into easy to use, compile-time type-safe Go packages
+  - **bootnode** Starts a node that only implements network discovery protocol
+  - **checkpoint-admin** Tool to manage Checkpoint oracle (Smart contract that stores a trusted checkpoint for LES protocol)
+  - **clef** Used to sign transactions and data. Eventual replacement for Geth's account management
+  - **devp2p** Utility for low-level peer-to-peer debugging and protocol development purposes
+  - **ethkey** Tool for working with Ethereum keyfiles
+  - **evm** Developer utility version of the EVM (Ethereum Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode
+  - **faucet** Web app with the goal of distributing small amounts of Ether in private and test networks
+  - **geth** The official command-line client for Ethereum
+  - **p2psim**
+  - **puppeth** Wizard to assemble and maintain private networks
+  - **rlpdump** Pretty-printer for RLP data
+  - **utils** Helper functions for commands
+- **common** Contains various helpers functions
+- **consensus** Different Ethereum consensus engines
+- **console** JavaScript interpreted runtime environment to be attached to a running node
+- **contracts** Solidity contracts and bindings. Just CheckpointOracle for now
+- **core** Implements the Ethereum consensus protocol
+- **crypto** Encryption and hashing algorithms
+- **docs** Audits and post-mortems
+- **eth** Implements the Ethereum protocol
+- **ethclient** Provides a client for the Ethereum RPC API
+- **ethdb** Defines the interfaces for an Ethereum data store
+- **ethstats** Implements the network stats reporting service
+- **event** Deals with subscriptions to real-time events
+- **graphql** Provides a GraphQL interface to Ethereum node data
+- **internal** TODO
+- **les** Implements the Light Ethereum Subprotocol
+- **light** Implements on-demand retrieval capable state and chain objects for the Ethereum Light Client
+- **log** github.com/inconshreveable/log15 "fork"
+- **metrics** github.com/rcrowley/go-metrics "fork"
+- **miner** Implements Ethereum block creation and mining
+- **mobile** Wrappers to support mobile platforms
+- **node** Sets up multi-protocol Ethereum nodes
+- **p2p** Implements the Ethereum p2p network protocols
+- **params** Configurations, default and hardcoded params
+- **rlp** Implements the RLP serialization format
+- **rpc** Implements bi-directional JSON-RPC 2.0 on multiple transports
+- **signer** TODO
+  - **core**
+  - **fourbyte**
+  - **rules**
+  - **storage**
+- **swarm** MOVED to ethersphere/swarm, then to Bee
+- **trie** Implements Merkle Patricia Tries
